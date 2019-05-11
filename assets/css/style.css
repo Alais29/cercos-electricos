@@ -1,0 +1,149 @@
+/* 
+=============
+GENERAL
+============= 
+*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+	font-size: 3.5em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+/* 
+=============
+HEADER
+============= 
+*/
+
+header {
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 10rem;
+}
+
+header h1 {
+	font-size: 4em;
+	text-shadow: 2px 2px 4px black;
+}
+
+header p {
+	font-size: 2.3em;
+	text-shadow: 2px 2px 4px black;
+}
+
+header .cot-btn {
+	width: 60%;
+	font-size: 1.5em;
+}
+
+/* 
+================================
+SOBRE NOSOTROS (y sombra de FAQ)
+================================
+*/
+
+.bg-green {
+	background-color: #52ad81;
+}
+
+#about h2, 
+#about p,
+#faq h2 {
+	text-shadow: 2px 2px 4px black;
+}
+
+/* 
+=============
+PROYECTOS
+============= 
+*/
+
+#proyectos .carousel-indicators{
+	top: 17em;
+	margin-bottom: 5em;
+}
+
+#proyectos .carousel-indicators li {
+	background-color: #5c5c5c;
+}
+
+#proyectos .carousel-indicators .active{
+	background-color: #3a3a3a;
+}
+
+/* 
+=============
+FAQS
+============= 
+*/
+
+.bg-lightblue {
+	background-color: #08c;
+}
+
+.btn-link:hover {
+	text-decoration: none;
+	text-shadow: 1px 1px 3px grey;
+}
+
+.btn-link:focus {
+	text-decoration: none;
+}
+
+/* 
+=============
+CONTACTO
+============= 
+*/
+
+#contacto .cot-btn {
+	width: 80%;
+	font-size: 1.5em;
+}
+
+#contacto .contact-text-cot {
+	border-top: 1px solid #a7a7a7;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+/*
+==================
+MEDIA QUERIES
+==================
+*/
+
+@media (max-width: 992px) { 
+	.contact-text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about-text {
+		text-align: center;
+	}
+
+	.contact-img {
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 576px) {
+	#faq .card-header,
+	#faq .card-body {
+		text-align: center;
+	}
+}
